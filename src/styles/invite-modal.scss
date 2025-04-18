@@ -1,0 +1,71 @@
+@use './_modal';
+
+.modalContent {
+  width: 420px;
+  height: 460px;
+
+  h3,
+  input,
+  p,
+  button{
+    display: block;
+    width: 320px;
+  }
+
+  h3{
+    margin: 5px auto 0;
+    text-align: center;
+    color: #777;
+    font-size: 18px;
+  }
+
+  .titleLine{
+    margin: 5px auto;
+    width: 90px;
+    height: 10px;
+    border-bottom: 1px solid #777;
+  }
+
+
+  input:first-of-type{
+    margin-top: 30px;
+  }
+
+  input{
+    margin: 20px auto;
+    padding: 5px 10px;
+    height: 40px;
+    line-height: 28px;
+    border: 1px solid #777;
+    border-radius: 2px;
+  }
+
+  button:first-of-type{
+    margin-top: 50px;
+  }
+
+  button{
+    margin: 20px auto;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 38px;
+    background: #fff;
+    border: 1px solid #777;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  button:disabled,
+  button[disabled]{
+    border: 1px solid #c1c1c1 !important;
+    color: #c1c1c1 !important;
+    background: #fff !important;
+  }
+
+  .error{
+    margin: 30px auto;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+  }
+}
