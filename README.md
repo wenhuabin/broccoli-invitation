@@ -36,12 +36,15 @@ This is a single-page web application built for the **Airwallex Frontend Code Ch
 1.	Clone the project to your local machine
 ```bash
 git clone git@github.com:wenhuabin/broccoli-invitation.git
+
 2.	Navigate into the project directory
 ```bash
 cd broccoli-invitation
+
 3.	Install dependencies
 ```bash
 npm install
+
 4.	Start the development server
 ```bash
 npm start
@@ -51,6 +54,7 @@ http://localhost:8080/
 5.	Run test cases
 ```bash
 npm run test
+
 6.	Build the project for production
 ```bash
 npm run build
