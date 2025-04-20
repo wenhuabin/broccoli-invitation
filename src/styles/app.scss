@@ -1,0 +1,15 @@
+@use './_common';
+
+#root{
+  width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+#root{
+  width: 100%;
+  min-width: 100%;
+  margin: 0;
+}
+}
