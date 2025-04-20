@@ -32,7 +32,7 @@ This is a single-page web application built for the **Airwallex Frontend Code Ch
 
 ## 📦 Getting Started
 
-- Local Node Version: v22.14.0
+Local Node Version: v22.14.0
 1.	Clone the project to your local machine
 ```bash
 git clone git@github.com:wenhuabin/broccoli-invitation.git
