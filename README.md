@@ -49,8 +49,8 @@ npm install
 ```bash
 npm start
 ```
-Once the server is running, open your browser and go to:
-http://localhost:8080/
+Once the server is running, open your browser and go to: http://localhost:8080/
+
 5.	Run test cases
 ```bash
 npm run test
